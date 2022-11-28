@@ -1,0 +1,58 @@
+$borderColor: blue;
+$FHColor: #4eff9b;
+$padding: 5px;
+$margin: 10px;
+$imgSize: 250px;
+$font-type: "Times New Roman", Times, serif;
+$a: auto;
+
+li {
+    display: inline;
+    margin-right: $margin;
+    padding: $padding;
+    border: $borderColor 1px solid;
+    border-radius: $padding;
+}
+
+nav h1 {
+    margin: $margin
+}
+
+nav {
+    margin-left: $a;
+    margin-right: $a;
+}
+
+section {
+    text-align: center;
+}
+
+article {
+  border: 1px solid $borderColor;
+  padding: $padding;
+  margin: $margin;
+  margin-left: $a;
+  margin-right: $a;
+  width: min-content;
+}
+
+img {
+    padding: $padding;
+    width: $imgSize;
+    height: $a;
+    object-fit: cover;
+}
+
+footer {
+    background-color: $FHColor;
+    font-family: $font-type;
+    font-size: 14px;
+    text-align: center;
+}
+
+header {
+    background-color: $FHColor;
+    font-family: $font-type;
+    font-size: 20px;
+    text-align: center;
+}
